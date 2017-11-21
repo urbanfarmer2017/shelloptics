@@ -1,0 +1,161 @@
+* {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.main {
+  position: relative;
+  height: 30rem;
+}
+
+.main img {
+  height: 30rem;
+  width: 100%;
+}
+
+.main .logo {
+  position: absolute;
+  top: 1rem;
+  left: 10%;
+  width: 960px;
+  height: 3rem;
+  padding: 1rem 2rem;
+  background-color: cadetblue;
+  border: 1px solid black;
+}
+
+.logo .company {
+  display: flex;
+}
+
+.company img {
+  display: inline-block;
+  height: 1.5rem;
+  width: 3rem;
+  padding-top: 1rem;
+}
+
+.company h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.logo ul {
+  text-align:right;
+  flex-grow: 1;
+  margin-top: 1rem;
+}
+
+.logo li {
+  display: inline-block;
+  margin-right: 2rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+}
+
+.main .banner {
+  position: absolute;
+  top: 14rem;
+  left: 35%;
+  height: 5rem;
+  width: 50%;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  border: 1px solid black;
+}
+
+.banner h3 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.services {
+  display: flex;
+  margin-top: 3rem;
+  height: 8rem;
+  width: 50%;
+  text-align: center;
+  flex-grow: 1;
+  margin-left: 30%;
+}
+
+.services .service {
+  display: inline-block;
+  margin-right: 6rem;
+  width: 5rem;
+}
+
+.baseline {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 28%;
+  width: 650px;
+}
+
+.baseline .philosophy {
+  display: inline-block;
+}
+
+.baseline .appoint {
+  display: inline-block;
+}
+
+.philosophy h4 {
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  height: 2rem;
+  width: 10rem;
+  padding-top: 1rem;
+  padding-left: 1.25rem;
+}
+
+.philosophy p {
+  margin-top: 0.5rem;
+  width: 75%;
+}
+
+.appoint h4 {
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  height: 2rem;
+  width: 10rem;
+  padding-top: 1rem;
+  padding-left: 1.25rem;
+  margin-left: 5%;
+}
+
+.appoint p {
+  margin-top: 0.5rem;
+  width: 75%;
+  margin-left: 5%;
+}
+
+.footer {
+  display: flex;
+  background-color: azure;
+  margin-top: 5rem;
+  height: 9rem;
+  width: 100%
+}
+
+.footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+.footer p {
+  display: inline-block;
+  padding-top: 4rem;
+}
