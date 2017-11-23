@@ -17,7 +17,7 @@
   position: absolute;
   top: 1rem;
   left: 10%;
-  width: 960px;
+  width: 70%;
   height: 3rem;
   padding: 1rem 2rem;
   background-color: cadetblue;
@@ -158,4 +158,64 @@
 .footer p {
   display: inline-block;
   padding-top: 4rem;
+}
+
+@media only screen and (min-width: 768ps) and (max-width: 1024px) {
+
+}
+
+
+@media only screen and (min-width: 468px) and (max-width: 768px){
+
+  .main .logo {
+    top:0rem;
+    left: 0;
+    width: 100%;
+  }
+
+  .main img {
+    height: 22rem;
+  }
+
+  .company img {
+    height: 1.5rem;
+    width: 3rem;
+    padding-top: 1rem;
+  }
+
+
+  .main .banner {
+    top: 8rem;
+    right: 2rem;
+    height: 2.83rem;
+    width: 50%;
+    background-color: white;
+    padding: 0.75rem 4rem;
+    border: 1px solid black;
+  }
+
+  .banner h3 {
+    font-size: 1.33rem;
+  }
+
+}
+
+@media only screen and (max-width: 468px) {
+
+  .logo .company {
+    display: none;
+  }
+
+  .company img {
+    display: none;
+  }
+
+  .company h4 {
+    display: none;
+  }
+
+  .company li {
+    display: none;
+  }
+
 }
